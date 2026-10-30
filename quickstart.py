@@ -25,3 +25,7 @@ message = client.messages.create(
 for block in message.content:
     if block.type == "text":
         print(block.text)
+
+print(f"\nInput tokens: {message.usage.input_tokens}")
+print(f"Output tokens: {message.usage.output_tokens}")
+print(f"Total tokens: {message.usage.input_tokens + message.usage.output_tokens}")
