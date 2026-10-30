@@ -11,3 +11,6 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Moat Finder lives in its own repository (github.com/Idris-Ayinde/moat-finder)
+stock_tracker/

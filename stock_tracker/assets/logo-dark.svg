@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" role="img" aria-label="Moat Finder">
-  <defs><clipPath id="sky-logo-dark"><rect x="0" y="0" width="40" height="30.6"/></clipPath></defs>
-  <circle cx="15" cy="30.6" r="10.5" fill="#d97757" clip-path="url(#sky-logo-dark)"/>
-  <rect x="26.5" y="5" width="6.5" height="25.6" rx="0.5" fill="#f0eee6"/>
-  <path d="M3.5 31.6 H36.5" stroke="#f0eee6" stroke-width="2.2" stroke-linecap="round"/>
-</svg>
