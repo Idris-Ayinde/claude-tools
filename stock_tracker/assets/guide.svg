@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 170" role="img" aria-label="An open book with a rising line drawn across its pages">
+  <path d="M15 85 C 15 25, 200 5, 228 70 C 250 130, 60 168, 25 130 Z" fill="#f0eee6"/>
+  <g fill="none" stroke="#141413" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 52 C 98 40, 62 38, 42 46 V 132 C 62 124, 98 126, 120 138 Z" fill="#ffffff"/>
+    <path d="M120 52 C 142 40, 178 38, 198 46 V 132 C 178 124, 142 126, 120 138 Z" fill="#ffffff"/>
+    <path d="M58 70 h40 M58 84 h34 M58 98 h40"/>
+  </g>
+  <path d="M136 112 L 152 98 L 166 104 L 186 74" fill="none" stroke="#d97757" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="186" cy="74" r="5" fill="#d97757" stroke="#141413" stroke-width="2"/>
+</svg>

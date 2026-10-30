@@ -1,0 +1,29 @@
+# Warm, editorial look with matching light and dark themes. With both defined, the app follows the
+# viewer's system setting by default; the sidebar toggle (or Streamlit's ⋮ > Settings) can override it.
+[theme]
+headingFont = "serif"
+font = "sans-serif"
+baseRadius = "0.75rem"
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#d97757"
+backgroundColor = "#faf9f5"
+secondaryBackgroundColor = "#f0eee6"
+textColor = "#141413"
+linkColor = "#c2613f"
+borderColor = "#e8e6dc"
+
+[theme.light.sidebar]
+backgroundColor = "#f0eee6"
+
+[theme.dark]
+primaryColor = "#d97757"
+backgroundColor = "#1f1e1d"
+secondaryBackgroundColor = "#2b2a27"
+textColor = "#f0eee6"
+linkColor = "#e08a6c"
+borderColor = "#3d3c38"
+
+[theme.dark.sidebar]
+backgroundColor = "#262624"

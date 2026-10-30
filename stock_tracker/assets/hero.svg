@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" role="img" aria-label="A castle on a hill surrounded by a flowing moat">
+  <style>
+    .wave { animation: drift 9s linear infinite; }
+    .wave.slow { animation-duration: 14s; }
+    .wave.rev { animation-direction: reverse; }
+    .coin { animation: bob 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .coin.b { animation-delay: -1.6s; } .coin.c { animation-delay: -3.1s; }
+    .sun { animation: breathe 8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-120px); } }
+    @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+    @media (prefers-reduced-motion: reduce) { .wave, .coin, .sun { animation: none; } }
+  </style>
+  <defs><clipPath id="pond"><path d="M40 300 C 90 262, 430 262, 480 300 C 470 352, 60 356, 40 300 Z"/></clipPath></defs>
+  <path d="M70 120 C 70 40, 230 10, 330 40 C 450 75, 500 170, 470 250 C 440 330, 120 350, 70 270 C 40 220, 70 180, 70 120 Z" fill="#f0eee6"/>
+  <circle class="sun" cx="392" cy="96" r="38" fill="#d97757" opacity="0.9"/>
+  <path d="M110 285 C 160 200, 360 200, 410 285 Z" fill="#e3dacc"/>
+  <g fill="none" stroke="#141413" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M110 285 C 160 200, 360 200, 410 285"/>
+    <path d="M205 228 V 162 h12 v-10 h10 v10 h12 v-10 h10 v10 h12 v66"/>
+    <path d="M183 236 V 182 h10 v-9 h9 v9 h3"/>
+    <path d="M261 182 h3 v-9 h9 v9 h10 v52"/>
+    <path d="M247 228 v-22 a10 10 0 0 0 -20 0 v22"/>
+    <path d="M237 152 V 128 l18 7 l-18 7"/>
+  </g>
+  <g clip-path="url(#pond)">
+    <rect x="30" y="250" width="470" height="120" fill="#cfdde3"/>
+    <g class="wave" fill="none" stroke="#6a9bcc" stroke-width="3" stroke-linecap="round">
+      <path d="M0 292 q 30 -10 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0"/>
+    </g>
+    <g class="wave slow rev" fill="none" stroke="#d97757" stroke-width="3" stroke-linecap="round">
+      <path d="M-60 312 q 30 -10 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0"/>
+    </g>
+    <g class="wave" fill="none" stroke="#141413" stroke-width="2.4" stroke-linecap="round" opacity="0.55">
+      <path d="M0 332 q 30 -8 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0"/>
+    </g>
+  </g>
+  <path d="M40 300 C 90 262, 430 262, 480 300 C 470 352, 60 356, 40 300 Z" fill="none" stroke="#141413" stroke-width="3" stroke-linecap="round"/>
+  <g stroke="#141413" stroke-width="2.6">
+    <circle class="coin" cx="96" cy="150" r="13" fill="#e8b04a"/>
+    <circle class="coin b" cx="140" cy="96" r="9" fill="#d97757"/>
+    <circle class="coin c" cx="440" cy="196" r="11" fill="#e8b04a"/>
+  </g>
+</svg>
